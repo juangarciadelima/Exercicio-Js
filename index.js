@@ -38,6 +38,20 @@ function media() { return (num1 + num2 + num3 + num4 + num5) / 5 }
 console.log('resultado', media())
 
 //objeto(ainda vai ser feito)//
+let idade = 15
+let name = 'Juan'
+let sobrenome = 'Garcia'
+let personinha = {
+    name: 'Juan', idade: '15', sobrenome: 'Garcia', falar: function () {
+        alert('Ele acha que sabe falar bonito')
+        console.log(personinha['name'])
+    }
+}
+
+console.log (personinha.falar)
+
+
+
 //Areá de circulo//
 const pi = 3.14
 
